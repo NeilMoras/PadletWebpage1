@@ -13,7 +13,7 @@
 
   </header>
   <main>
-  <div class="text-wrapper">
+    <div class="text-wrapper">
       <div class="heading-main">
         <h1 class="heading">IF ELSE and SWITCH Statement Simplified</h1>
       </div>
@@ -23,6 +23,7 @@
         <p>In this situation, The <code>if..else</code> statement comes in handy which helps to create a program where there is more than one outcome.</p>
       </div>
 
+
       <div class="main-para">
         <p>There are 3 forms of <code>if..else</code> statement in Javascript.</p>
         <ol>
@@ -31,7 +32,7 @@
           <li><b>if..else if..else</b> statement</li>
         </ol>
       </div>
-<!-- IF..ELSE STATEMENT REAL LIFE APPLICATION -->
+      <!-- IF..ELSE STATEMENT REAL LIFE APPLICATION -->
       <div class="routine-example">
         <h2 class="sub-heading">if..else statement applied in real life</h2>
         <p>We all encounter <code>if..else</code> statements in many ways on daily basis in our day to day lives. We use it so often that we are just not aware of it. Here is a simple example of of our routine life decisions which can be realted
@@ -39,7 +40,7 @@
       </div>
       <div class="preformatted text">
         <pre>
-            I wake up
+             I wake up
              If I'm hungry
               I eat breakfast
 
@@ -64,7 +65,7 @@
       <div class="">
         The above raw statement is very similar to the one to JavaScript. In short, as a emerging programmer, applying simple logic and reasoning just like in real life scenarios is important in order to understand the logic of JavaScript.
       </div>
-
+      <!-- IF..STATEMENT -->
       <div class="if-statement">
         <h2 class="sub-heading">if statement.</h2>
         <p>The <code>if..</code> statement is one of the most often used statement in JavaScript. It executes a block of code or statement if the condition is evaluated to true or false(Boolean value). Even though a condition would not evaluate
@@ -82,17 +83,14 @@
 
       <div class="para">
         <p>It is a recommended practice for a novice or new programmer to always use curly braces even if it is only one statement to be run. This helps in eliminating future confusions as it will be easy for other porgrammers to read.</p>
-
-
         <div class="image">
           <img src="images/if-statement-syntax.png" alt="If statement syntax image">
         </div>
-
         <p>You need to be carefull when running only <code>if..</code> statement solely as in such conditions the code will always run even though the condition evaluates to true or false. It is best practice to run one block of code or the
           other and not both.</p>
 
       </div>
-
+      <!-- ELSE IF AND ELSE STATMENT -->
       <div class="para">
         <h2 class="sub-heading">else if and else statement</h2>
         <p>In order to place and execute multiple conditions than one, we can add <code>else..if</code> and <code>else</code> statement to the <code>if</code> statement. This enhances the capability and application of the <code>if</code>
@@ -111,7 +109,7 @@
           <img src="images/2condition-if-else.png" alt="image of multiple condition if statement">
           <figcaption>image from <a href="https://www.programiz.com/javascript/if-else" target="_blank">Programiz</a></figcaption>
         </figure>
-
+        <!-- IF..ELSE IF AND ELSE STATEMENT PRACTICAL APPLICATION -->
       </div>
       <div class="heading-sec">
         <h3 class="sub-heading">If..else if..else statement practical application</h3>
@@ -127,6 +125,7 @@
         <p>The second conditon is whether <code>a</code> is greater then <code>b</code>. If the second condition evaluates to true, then the code inside the second conditon parentheses gets executed. </p>
         <p>Finaly, if 1st and 2nd conditon or none of the <code>if</code> or <code>else..if</code> matches the conditon, then the <code>else</code> condition is executed.</p>
       </div>
+      <!-- NESTED IF ELSE STATEMENT -->
       <div class="sub-heading">
         <h2>Nested if else statements</h2>
       </div>
@@ -137,7 +136,7 @@
         <img src="images/nested-if-syntax.png" alt="image of syntax nexted if statement">
       </div>
 
-
+      <!-- NESTED IF ELSE STATEMENT PRACTICAL APPLICATION -->
       <div class="sub-heading">
         <h3>Nested if else statement practical application</h3>
       </div>
@@ -157,7 +156,7 @@
           rest of the conditions are skipped since the condition is satisfied.</p>
       </div>
 
-
+      <!-- SWITCH STATEMENT -->
       <div class="heading-switch">
         <h1 class="heading">Switch statement</h1>
 
@@ -182,7 +181,7 @@
         <li>This process can go on depending on the number of case expressions to be evaulated.</li>
         <li>If none of the case expressions match the body, then the default body is executed.</li>
       </ul>
-
+      <!-- SWITCH STATEMENT PRACTICAL APPLICATION -->
       <div class="sub-heading">
         <h3>Switch statement practical application example</h3>
 
@@ -195,6 +194,8 @@
       </div>
       <p>Lets make the <code>switch</code> statement easier to understand and break it down into simple explaination. </p>
       <p>The above code takes the input from the user in numbers and then simply matches it with the parameters mentioned in cases and outputs a grade from "A" to "F" if the user input number matches within that range condition.</p>
+      <p> <code>break</code> is added after each case inorder for the process to end and breals out of the switch block as it will let the program check the case one by one. Without the <code>break</code> statement, even the next case code will be
+        executed regardless of it matching the condition or no.</p>
       <ul>
         <li>"A" grade would be the output if the input number is 90 and above.</li>
         <li>"B" grade would be the output if the input number is between 80 and 89.</li>
@@ -203,7 +204,7 @@
         <li>"F" is assigned and given out as an output if the input grade number is below 59.</li>
       </ul>
       <p><code>switch</code> statement simply checks if the input expression evaluates to true and then stops if the expression matches the conditon statement.</p>
-
+      <!-- DIFFERENCE BETWEEN IF STATEMENT AND SWITCH STATEMENT -->
       <div class="if-switch sub-heading">
         <h2>Difference between IF statement and switch statement</h2>
 
@@ -211,11 +212,13 @@
 
       <ul>
         <li>The statement to be executed will depend on the expression output inside of the <code>if</code> statement where as in <code>switch</code> statement, the user decides as to which statement is to be executed.</li>
-        <li>Its not easy to edit <code>if</code> statements if they are if they are nested inside each other whereas <code>switch</code> statement is easy to edit as easily recognizable.</li>
-        <li>switch statement can be nexted inside and <code>if..else</code> statement but an <code>if..else</code> statment cannot if nexted inside a <code>switch</code> statement.</li>
+        <li>Its not easy to edit <code>if</code> statements if they are nested inside each other whereas <code>switch</code> statement is easy to edit as easily recognizable.</li>
+        <li>Nesting a switch inside an <code>if..else</code> statment is recommended compared to the other way around just to avoid th code getting too complicated. </li>
         <li><code>if</code> statement tests the eqality as well as logical expressions whereas <code>switch</code> statement tests only based on equality.</li>
       </ul>
 
+
+      <!-- REFERENCE LIST -->
       <div class="reference">
         <h3>Reference list</h3>
         <p>For more information on <code>if..else if</code> and nested <code>if..else</code> statement: </p>
