@@ -1,0 +1,30 @@
+
+
+
+
+ if..else if.else and nested if statements
+https://www.javascripttutorial.net/javascript-if-else/
+https://www.w3schools.com/js/js_if_else.asp
+https://www.thoughtco.com/create-a-shorter-if-statement-in-javascript-2037428
+
+https://www.mikedane.com/web-development/javascript/if-statements/
+https://www.geeksforgeeks.org/if-else-statement-in-javascript/
+
+https://exlskills.com/learn-en/courses/javascript-fundamentals-basics_javascript/conditional-statements-zgrXFcSqdfIF/the-if-statements-YcHrGQKxvTOI/nested-if-statements-nSAoxbDFvMOq
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+
+https://www.programiz.com/javascript/if-else
+
+
+
+
+
+switch statements
+https://www.programiz.com/javascript/switch-statement
+https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript
+https://www.webtrainingroom.com/javascript/javascript-switch-case
+https://www.w3schools.com/js/js_switch.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+if vs switch
+https://medium.com/@michellekwong2/switch-vs-if-else-1d458e7b0711
+https://techdifferences.com/difference-between-if-else-and-switch.html

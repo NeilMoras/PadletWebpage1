@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>IF ELSE & SWITCH statement</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <main>
+  <div class="text-wrapper">
+      <div class="heading-main">
+        <h1 class="heading">IF ELSE and SWITCH Statement Simplified</h1>
+      </div>
+      <div class="heading-desc">
+        <p>There will be a situation while coding that you might have to run a block of code which might need more than one alternative. For example, providing an alternative output if there are various inputs even though if there is only one right
+          expected output.</p>
+        <p>In this situation, The <code>if..else</code> statement comes in handy which helps to create a program where there is more than one outcome.</p>
+      </div>
+
+      <div class="main-para">
+        <p>There are 3 forms of <code>if..else</code> statement in Javascript.</p>
+        <ol>
+          <li><b>if</b> statement</li>
+          <li><b>if..else</b> statement</li>
+          <li><b>if..else if..else</b> statement</li>
+        </ol>
+      </div>
+<!-- IF..ELSE STATEMENT REAL LIFE APPLICATION -->
+      <div class="routine-example">
+        <h2 class="sub-heading">if..else statement applied in real life</h2>
+        <p>We all encounter <code>if..else</code> statements in many ways on daily basis in our day to day lives. We use it so often that we are just not aware of it. Here is a simple example of of our routine life decisions which can be realted
+          to Javascripts <code>if..else</code> statement.</p>
+      </div>
+      <div class="preformatted text">
+        <pre>
+            I wake up
+             If I'm hungry
+              I eat breakfast
+
+              I leave my house
+              if it's cloudy
+                I bring an umbrella
+              otherwise
+                I bring sunglasses
+
+              Im at a restaurant
+              if I want a steak
+                  I order a steak
+              otherwise if i want pasta
+                   I order spaghetti & meatballs
+              otherwise if i want anything vegetarian
+                   I order a simple salad
+              other
+                I will only enjoy my drink
+        </pre>
+      </div>
+
+      <div class="">
+        The above raw statement is very similar to the one to JavaScript. In short, as a emerging programmer, applying simple logic and reasoning just like in real life scenarios is important in order to understand the logic of JavaScript.
+      </div>
+
+      <div class="if-statement">
+        <h2 class="sub-heading">if statement.</h2>
+        <p>The <code>if..</code> statement is one of the most often used statement in JavaScript. It executes a block of code or statement if the condition is evaluated to true or false(Boolean value). Even though a condition would not evaluate
+          to a Boolean value, JavaScript will convert it into a boolean value by calling in the <code>Boolean()</code> function.</p>
+        <p>The statement is executed if the conditon asseses to true. On the other hand, the condition is passed on the next statment if it is assesed to false.</p>
+      </div>
+      <div class="image">
+        <figure>
+          <img src="images/if-statement.png" alt="if else syntax example">
+          <figcaption>image from <a href="https://www.javascripttutorial.net/javascript-if-else/">javascripttutorials</a> </figcaption>
+        </figure>
+
+      </div>
+
+
+      <div class="para">
+        <p>It is a recommended practice for a novice or new programmer to always use curly braces even if it is only one statement to be run. This helps in eliminating future confusions as it will be easy for other porgrammers to read.</p>
+
+
+        <div class="image">
+          <img src="images/if-statement-syntax.png" alt="If statement syntax image">
+        </div>
+
+        <p>You need to be carefull when running only <code>if..</code> statement solely as in such conditions the code will always run even though the condition evaluates to true or false. It is best practice to run one block of code or the
+          other and not both.</p>
+
+      </div>
+
+      <div class="para">
+        <h2 class="sub-heading">else if and else statement</h2>
+        <p>In order to place and execute multiple conditions than one, we can add <code>else..if</code> and <code>else</code> statement to the <code>if</code> statement. This enhances the capability and application of the <code>if</code>
+          statement further by providing alternatives making the code versatile to use. This helps the programmer to execute innumerable <code>if</code> conditions.</p>
+
+      </div>
+
+      <div class="image">
+        <img src="images/if-else-statement.png" alt="image of id-else statement">
+      </div>
+      <div class="image">
+        <img src="images/ifelse-elseif-statement.png" alt="image if if-else else if statement">
+      </div>
+      <div class="image">
+        <figure>
+          <img src="images/2condition-if-else.png" alt="image of multiple condition if statement">
+          <figcaption>image from <a href="https://www.programiz.com/javascript/if-else" target="_blank">Programiz</a></figcaption>
+        </figure>
+
+      </div>
+      <div class="heading-sec">
+        <h3 class="sub-heading">If..else if..else statement practical application</h3>
+        <p>Here is a practical application of <code>if..else..else</code> statement where variables <code>a</code> and <code>b</code> are compared and evaluated using various conditions. </p>
+
+        <div class="image">
+          <img src="images/if-else-example.png" alt="">
+        </div>
+
+        <p>In the above example, 2 integer numbers are stored in a variable where <code>a = 10</code> and <code>b = 20</code> and conditions are applied using the <code>if-else if ..else</code> statement.</p>
+        <p>The first condition given to the 2 variables is if <code>a</code> is greater than <code>b</code>. If the first condition evaluates to true, then the code inside the first parentheses gets executed which is <code>console.log("a is
+            greater than b")</code>which is self explainatory.</p>
+        <p>The second conditon is whether <code>a</code> is greater then <code>b</code>. If the second condition evaluates to true, then the code inside the second conditon parentheses gets executed. </p>
+        <p>Finaly, if 1st and 2nd conditon or none of the <code>if</code> or <code>else..if</code> matches the conditon, then the <code>else</code> condition is executed.</p>
+      </div>
+      <div class="sub-heading">
+        <h2>Nested if else statements</h2>
+      </div>
+      <p>Nesting multiple <code>if</code> statements into another concept that we will explore which will help to solve more complex conditions. The use of curly braces is recommended to avoid ambiguity and to make the code clean and readable.
+        One should not use more than 3 levels of nesting <code>if</code> statements and the order of the cases should be from hight expected output followed by less expected output.</p>
+
+      <div class="image">
+        <img src="images/nested-if-syntax.png" alt="image of syntax nexted if statement">
+      </div>
+
+
+      <div class="sub-heading">
+        <h3>Nested if else statement practical application</h3>
+      </div>
+      <div class="">
+        <p>Here is a practical application of nested <code>if..else.</code> statement where condition 1 is further narrowed down from a broader condition to more specific.</p>
+      </div>
+
+      <div class="image">
+        <img src="images/nested-ifels-example.png" alt="">
+      </div>
+
+      <div class="">
+        <p>In the above example, variable <code>i</code> is given the value of 10. According to the conditons stated above, if conditions <code>i = 10</code>, then the program will look into the <code>if</code> statement nested inside the first
+          condition. If <code>i</code> further meets the condition of the nested <code>if</code> statement which is <code>i &lt; 12</code> then that condition code is executed. In the above example, the nested condition of the first condition is
+          true hence the program will evaluate to true and will skip the final <code>else</code> condition. </p>
+        <p>One thing to be noted is that the <code>if</code> statements are executed from top to bottom. While doing so, if any of the conditons from top down meets the conditon, then the statement within that condition is executed and the
+          rest of the conditions are skipped since the condition is satisfied.</p>
+      </div>
+
+
+      <div class="heading-switch">
+        <h1 class="heading">Switch statement</h1>
+
+      </div>
+      <p><code>Switch</code> statement assess an expression and then the corresponding case body that matches the expression result is executed.</p>
+
+      <p>Here is the following flowchart and syntax of the <code>switch</code> statement: </p>
+
+      <div class="image">
+
+        <figure>
+          <img src="images/switch-flowchart.png" alt="Switch statement flowchart.">
+          <figcaption>image from <a href="https://www.programiz.com/javascript/switch-statement" target="_blank">Programiz.</a> </figcaption>
+        </figure>
+        <img src="images/switch-syntax.png" alt="Switch statment syntax example.">
+      </div>
+      <p>When <code>Switch</code> statement is used, the variable expression is evaluated which are enclosed inside the parentheses().</p>
+
+      <ul>
+        <li>The body used <code>value1</code> is executed if the expression results matches <code>value1.</code></li>
+        <li>The body inside value2 is executed if the expression results matches <code>value2.</code></li>
+        <li>This process can go on depending on the number of case expressions to be evaulated.</li>
+        <li>If none of the case expressions match the body, then the default body is executed.</li>
+      </ul>
+
+      <div class="sub-heading">
+        <h3>Switch statement practical application example</h3>
+
+      </div>
+      <p>Here is a practical example of a <code>switch</code> statement:</p>
+
+      <div class="image">
+        <img src="images/switch-example.png" alt="">
+
+      </div>
+      <p>Lets make the <code>switch</code> statement easier to understand and break it down into simple explaination. </p>
+      <p>The above code takes the input from the user in numbers and then simply matches it with the parameters mentioned in cases and outputs a grade from "A" to "F" if the user input number matches within that range condition.</p>
+      <ul>
+        <li>"A" grade would be the output if the input number is 90 and above.</li>
+        <li>"B" grade would be the output if the input number is between 80 and 89.</li>
+        <li>"C" grade would be the output if the input number is between 70 and 79.</li>
+        <li>"D" grade is assigned if the input number is between 60 and 69.</li>
+        <li>"F" is assigned and given out as an output if the input grade number is below 59.</li>
+      </ul>
+      <p><code>switch</code> statement simply checks if the input expression evaluates to true and then stops if the expression matches the conditon statement.</p>
+
+      <div class="if-switch sub-heading">
+        <h2>Difference between IF statement and switch statement</h2>
+
+      </div>
+
+      <ul>
+        <li>The statement to be executed will depend on the expression output inside of the <code>if</code> statement where as in <code>switch</code> statement, the user decides as to which statement is to be executed.</li>
+        <li>Its not easy to edit <code>if</code> statements if they are if they are nested inside each other whereas <code>switch</code> statement is easy to edit as easily recognizable.</li>
+        <li>switch statement can be nexted inside and <code>if..else</code> statement but an <code>if..else</code> statment cannot if nexted inside a <code>switch</code> statement.</li>
+        <li><code>if</code> statement tests the eqality as well as logical expressions whereas <code>switch</code> statement tests only based on equality.</li>
+      </ul>
+
+      <div class="reference">
+        <h3>Reference list</h3>
+        <p>For more information on <code>if..else if</code> and nested <code>if..else</code> statement: </p>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else">developer.mozilla.org</a></li>
+          <li><a href="https://www.w3schools.com/js/js_if_else.asp">w3schools.com</a></li>
+          <li><a href="https://www.javascripttutorial.net/javascript-if-else/" target="_blank">javascripttutorial.net</a></li>
+          <li><a href="https://www.thoughtco.com/create-a-shorter-if-statement-in-javascript-2037428" target="_blank">thoughtco.com</a></li>
+          <li><a href="https://www.mikedane.com/web-development/javascript/if-statements/" target="_blank">mikedane.com</a></li>
+          <li><a href="https://www.geeksforgeeks.org/if-else-statement-in-javascript/" target="_blank">geeksforgeeks.org</a></li>
+          <li><a href="https://www.programiz.com/javascript/if-else" target="_blank">progamiz.com</a></li>
+          <li><a href="https://exlskills.com/learn-en/courses/javascript-fundamentals-basics_javascript/conditional-statements-zgrXFcSqdfIF/the-if-statements-YcHrGQKxvTOI/nested-if-statements-nSAoxbDFvMOq" target="_blank">exskills.com</a> </li>
+        </ul>
+
+        <p>For more information on <code>switch</code> statements:</p>
+        <ul>
+          <li><a href="https://www.w3schools.com/js/js_switch.asp" target="_blank">w3schools.com</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch" target="_blank">developer.mozilla.org</a></li>
+          <li><a href="https://www.programiz.com/javascript/switch-statement" target="_blank">progamiz.com</a></li>
+          <li><a href="https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript" target="_blank">digitalocean.com</a></li>
+          <li><a href="https://www.webtrainingroom.com/javascript/javascript-switch-case" target="_blank">webtrainingroom.com</a></li>
+        </ul>
+
+        <p>For more information of the difference between <code>if..else</code> and <code>switch</code> statements:</p>
+        <ul>
+          <li><a href="https://medium.com/@michellekwong2/switch-vs-if-else-1d458e7b0711" target="_blank">medium.com</a></li>
+          <li><a href="https://techdifferences.com/difference-between-if-else-and-switch.html" target="_blank">techdifferences.com</a></li>
+        </ul>
+      </div>
+
+
+    </div>
+
+
+
+  </main>
+  <footer>
+    <span>&copy; Neil Moras 2021.</span>
+  </footer>
+
+</body>
+
+</html>
