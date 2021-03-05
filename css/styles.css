@@ -36,6 +36,13 @@ code {
 .image {
   text-align: center;
 }
+.image-bigger img{
+  width: 80%;
+
+}
+.image-bigger{
+  text-align: center;
+}
 
 .image img {
   width: 65%;

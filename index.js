@@ -64,27 +64,31 @@
 //
 //
 //
-//
-// var spendInput = prompt("Please enter your item cost:");
-// var totalSpending = parseInt(spendInput);
-//
-// var premiumInput = prompt("Are you a Premium member?","please type YES or NO");
-// var input = premiumInput.toLowerCase();
-// console.log(input);
-// if(totalSpending < 20 && input === "no"){
-//     alert("Thank you, your Shipping cost would be $15");
-// }
-// else if((totalSpending >= 20 && totalSpending < 50) && input === "no"){
-//     alert("Thank you, your discounted shipping cost is $8");
-// }
-// else if((totalSpending >=50 && totalSpending <100) && input === "no"){
-//     alert("Thank you, your discounted shipping cost is $4");
-// }
-// else if(totalSpending >= 100 || input === "yes"){
-//   alert("Yayyy! Your shipping is free!");
-// }
-// else{
-//   alert("Invalid input");
+// asking the user for input
+var spendInput = prompt("Please enter your item cost:");
+// using parstInt in order to accept only number inputs
+var totalSpending = parseInt(spendInput);
+// asking the user if they have premuiim account
+var premiumInput = prompt("Are you a Premium member?","please type YES or NO");
+// Converting all inputs to lowercase to match the below conditions
+//By doing so, if the user types "YES" or "Yes" , word will convert to lower case
+var input = premiumInput.toLowerCase();
+// console loffing the input just to check and conform if the input is lowercase
+console.log(input);
+if(totalSpending < 20 && input === "no"){
+    alert("Thank you, your Shipping cost would be $15");
+}
+else if((totalSpending >= 20 && totalSpending < 50) && input === "no"){
+    alert("Thank you, your discounted shipping cost is $8");
+}
+else if((totalSpending >=50 && totalSpending <100) && input === "no"){
+    alert("Thank you, your discounted shipping cost is $4");
+}
+else if(totalSpending >= 100 || input === "yes"){
+  alert("Yayyy! Your shipping is free!");
+}
+else{
+  alert("Invalid input");
 // }
 //
 //
