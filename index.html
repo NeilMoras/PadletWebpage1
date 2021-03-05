@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>IF ELSE & SWITCH statement</title>
   <link rel="stylesheet" href="css/styles.css">
+  <script src="index.js" charset="utf-8"></script>
 
 </head>
 
@@ -41,8 +42,8 @@
       <div class="preformatted text">
         <pre>
              I wake up
-             If I'm hungry
-              I eat breakfast
+             If I'm sleepy
+              I will sleep more
 
               I leave my house
               if it's cloudy
@@ -51,9 +52,9 @@
                 I bring sunglasses
 
               Im at a restaurant
-              if I want a steak
+              if I want to eat meat or someting heavy
                   I order a steak
-              otherwise if i want pasta
+              otherwise if i want pasta or italian
                    I order spaghetti & meatballs
               otherwise if i want anything vegetarian
                    I order a simple salad
@@ -154,6 +155,13 @@
           true hence the program will evaluate to true and will skip the final <code>else</code> condition. </p>
         <p>One thing to be noted is that the <code>if</code> statements are executed from top to bottom. While doing so, if any of the conditons from top down meets the conditon, then the statement within that condition is executed and the
           rest of the conditions are skipped since the condition is satisfied.</p>
+          <p>If there are multiple scenarios leading to one output,  we can use <code>&& for AND</code>,<code>|| for OR</code> and <code>! for NOT</code> logical operators. </p>
+          <p>Below is an example of an <code>if..else</code> statement with an application of logical operators:</p>
+
+            <div class="image">
+              <img src="images/logical-op-if-example.png" alt="if else statement example with logical operators">
+            </div>
+
       </div>
 
       <!-- SWITCH STATEMENT -->
@@ -212,7 +220,7 @@
 
       <ul>
         <li>The statement to be executed will depend on the expression output inside of the <code>if</code> statement where as in <code>switch</code> statement, the user decides as to which statement is to be executed.</li>
-        <li>Its not easy to edit <code>if</code> statements if they are nested inside each other whereas <code>switch</code> statement is easy to edit as easily recognizable.</li>
+        <li>Its not easy to edit <code>if</code> statements if they are nested inside each other whereas <code>switch</code> statement is easy to edit and easily recognizable.</li>
         <li>Nesting a switch inside an <code>if..else</code> statment is recommended compared to the other way around just to avoid th code getting too complicated. </li>
         <li><code>if</code> statement tests the eqality as well as logical expressions whereas <code>switch</code> statement tests only based on equality.</li>
       </ul>
@@ -227,7 +235,6 @@
           <li><a href="https://www.w3schools.com/js/js_if_else.asp">w3schools.com</a></li>
           <li><a href="https://www.javascripttutorial.net/javascript-if-else/" target="_blank">javascripttutorial.net</a></li>
           <li><a href="https://www.thoughtco.com/create-a-shorter-if-statement-in-javascript-2037428" target="_blank">thoughtco.com</a></li>
-          <li><a href="https://www.mikedane.com/web-development/javascript/if-statements/" target="_blank">mikedane.com</a></li>
           <li><a href="https://www.geeksforgeeks.org/if-else-statement-in-javascript/" target="_blank">geeksforgeeks.org</a></li>
           <li><a href="https://www.programiz.com/javascript/if-else" target="_blank">progamiz.com</a></li>
           <li><a href="https://exlskills.com/learn-en/courses/javascript-fundamentals-basics_javascript/conditional-statements-zgrXFcSqdfIF/the-if-statements-YcHrGQKxvTOI/nested-if-statements-nSAoxbDFvMOq" target="_blank">exskills.com</a> </li>

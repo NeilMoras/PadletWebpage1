@@ -51,8 +51,8 @@
 //
 //
 //
-// let a = 10,
-//  b = 20;
+// var a = 10,
+// var b = 20;
 // if (a > b) {
 //  console.log('a is greater than b');
 // } else if (a < b) {
@@ -64,7 +64,32 @@
 //
 //
 //
+//
+// var spendInput = prompt("Please enter your item cost:");
+// var totalSpending = parseInt(spendInput);
+//
+// var premiumInput = prompt("Are you a Premium member?","please type YES or NO");
+// var input = premiumInput.toLowerCase();
+// console.log(input);
+// if(totalSpending < 20 && input === "no"){
+//     alert("Thank you, your Shipping cost would be $15");
+// }
+// else if((totalSpending >= 20 && totalSpending < 50) && input === "no"){
+//     alert("Thank you, your discounted shipping cost is $8");
+// }
+// else if((totalSpending >=50 && totalSpending <100) && input === "no"){
+//     alert("Thank you, your discounted shipping cost is $4");
+// }
+// else if(totalSpending >= 100 || input === "yes"){
+//   alert("Yayyy! Your shipping is free!");
+// }
+// else{
+//   alert("Invalid input");
+// }
+//
+//
 // var i = 10;
+//
 //
 // if (i == 10) {
 //
